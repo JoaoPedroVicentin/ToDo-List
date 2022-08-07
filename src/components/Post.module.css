@@ -1,0 +1,101 @@
+main{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    margin-top: -5vh;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.input textarea{
+    height: 54px;
+
+    background-color: var(--gray-500);
+    
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+
+    resize: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.input button{
+    height: 52px;
+
+    padding: 1rem;
+    background-color: var(--Blue-Dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+}
+
+.posts header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.posts .tasks, .posts .conclueded{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.posts .tasks p{
+    color: var(--Blue);
+}
+
+.posts .conclueded p{
+    color: var(--Purple);
+}
+
+.posts header span{
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0.15rem 0.5rem;
+    border-radius: 40%;
+}
+
+.empty {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    text-align: center;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.empty img{
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:555px){
+    .input{
+        grid-template-columns: 1fr;
+    }
+}
