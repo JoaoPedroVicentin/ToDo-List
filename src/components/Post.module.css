@@ -74,7 +74,7 @@ main{
     background-color: var(--gray-400);
     color: var(--gray-200);
     padding: 0.15rem 0.5rem;
-    border-radius: 40%;
+    border-radius: 8px;
 }
 
 .empty {

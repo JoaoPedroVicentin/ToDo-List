@@ -29,7 +29,7 @@ export function Post(){
             isComplete: false
         }
         
-        setTasks([...tasks, newTask]);
+        setTasks([newTask, ...tasks]);
         setNewTaskText('');
     }
 
@@ -80,7 +80,7 @@ export function Post(){
                     </div>
                     <div className={styles.conclueded}>
                         <p>Concluídas</p>
-                        <span>{tasksCompleted.length}</span>
+                        <span>{tasksCompleted.length} de {tasks.length}</span>
                     </div>
                 </header>
 
