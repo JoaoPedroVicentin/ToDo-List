@@ -35,7 +35,7 @@
 ```bash
 
 #Clone este repositório
-$ git clone https://github.com/JoaoPedroVicentin/ToDo-List.git
+$ git clone https://github.com/JoaoPedroVicentin/todo-list.git
 
 #Acesse a pasta do projeto
 $ cd ToDo-List
