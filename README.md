@@ -30,6 +30,8 @@
 </div>
 <br>
 
+<a href="https://github-blog-eight.vercel.app/">Deploy na VERCEL</a>
+
 ##
 
 ```bash
